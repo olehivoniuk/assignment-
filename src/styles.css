@@ -1,0 +1,55 @@
+/* Square.css */
+/* Common styles for all elements inside .square */
+.custom-border {
+    border: 5px solid #333;
+  }
+  
+  /* Styles for .square container */
+  .square {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 10vh;
+  }
+  
+  /* Styles for .heading */
+  .heading {
+    flex: 0 0 25%;
+    background-color: #eee;
+    border-bottom: 5px solid #333;
+    background-color: blue;
+  }
+
+  .main {
+    flex: 1; /* Take up the remaining space */
+    background-color: #ccc; /* Adjust the background color as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+  }
+  
+  /* Styles for .footing */
+  .footing {
+    flex: 0 0 10%;
+    border-top: 5px solid #333;
+    margin-top: auto; /* Push the footer to the bottom of the .square container */
+    background-color: brown;
+  }
+
+  .button1 {
+    margin: 5vh;
+    height: 15vh; 
+    width: 15vh;
+    box-sizing: content-box; /* or box-sizing: border-box; */
+    background-color: gold;
+}
+
+.button2 {
+  margin: 5vh;
+  height: 15vh; 
+  width: 15vh;
+  box-sizing: content-box; /* or box-sizing: border-box; */
+  background-color: gold;
+  border-radius: 5px;
+}
