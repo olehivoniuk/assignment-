@@ -1,0 +1,8 @@
+.main {
+    flex: 1; /* Take up the remaining space */
+    background-color: #ccc; /* Adjust the background color as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+  }

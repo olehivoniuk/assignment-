@@ -1,6 +1,5 @@
-import React from 'react'
-import Button from './Button'
-import './styles.css'
+import Button from '../button/button'
+import './main_styles.css'
 
 const Main = () => {
   return (

@@ -1,11 +1,10 @@
 import './App.css';
-import './styles.css'
-import Wrapper from './Wrapper';
+import Wrapper from './components/wrapper/wrapper';
 
 function App() {
   return (
     <div className="App">
-      <Wrapper className = 'wrapper'/>
+      <Wrapper />
     </div>
   );
 }

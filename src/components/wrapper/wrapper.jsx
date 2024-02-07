@@ -1,8 +1,8 @@
-import React from 'react'
-import './styles.css'
-import Header from './Header'
-import Main from './Main'
-import Footer from './Footer'
+import Header from '../header/header'
+import Main from '../main/main'
+import Footer from '../footer/footer'
+import './wrapper_styles.css'
+
 
 const Wrapper = () => {
   return (

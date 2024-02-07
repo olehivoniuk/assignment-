@@ -1,0 +1,7 @@
+ /* Styles for .heading */
+ .heading {
+    flex: 0 0 25%;
+    background-color: #eee;
+    border-bottom: 5px solid #333;
+    background-color: blue;
+  }
